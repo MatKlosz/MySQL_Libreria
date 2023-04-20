@@ -21,6 +21,7 @@ Finalmente, se implementan las consultas necesarias para obtener la información
 ***CREACIÓN DE OBJETOS DE LA BASE DE DATOS E INFORMES***
 
 ***VISTAS***
+
 ***vventas_clientes***
 Se muestra el total de las ventas acumuladas por cliente, lo que permite a la librería categorizar a los clientes en función de su nivel de compra y generar campañas de marketing personalizadas para incentivar la lealtad y las compras repetidas. Esta vista es útil para identificar a los clientes más valiosos y recompensarlos con descuentos exclusivos o beneficios adicionales, lo que a su vez puede aumentar las ventas y mejorar la rentabilidad de la librería.
 
