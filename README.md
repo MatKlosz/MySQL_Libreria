@@ -19,6 +19,7 @@ Una vez creadas las tablas, se procede a la carga de los datos en la base de dat
 Finalmente, se implementan las consultas necesarias para obtener la información requerida por la librería y se generan los informes correspondientes para apoyar la toma de decisiones de la empresa. En esta etapa se pueden implementar también algunas funcionalidades adicionales, como la gestión de inventario y el procesamiento de pagos en línea.
 
 ***CREACIÓN DE OBJETOS DE LA BASE DE DATOS E INFORMES***
+
 ***VISTAS***
 ***vventas_clientes***
 Se muestra el total de las ventas acumuladas por cliente, lo que permite a la librería categorizar a los clientes en función de su nivel de compra y generar campañas de marketing personalizadas para incentivar la lealtad y las compras repetidas. Esta vista es útil para identificar a los clientes más valiosos y recompensarlos con descuentos exclusivos o beneficios adicionales, lo que a su vez puede aumentar las ventas y mejorar la rentabilidad de la librería.
@@ -37,6 +38,7 @@ Muestra las ventas acumuladas por empleado. Permite controlar la facturación po
 
 
 ***FUNCIONES***
+
 ***Consulta_comision***
 Permite ingresar el ID de un Empleado y me devuelve la comisión que tiene para cobrar.
 
@@ -45,6 +47,7 @@ Permite ingresar el margen de utilidad al costo de ventas para determinar el pre
 
 
 ***STORED PROCEDURES***
+
 ***Sp_altacliente***
 Este procedimiento permite dar de alta de una forma más ágil a un cliente, al ingresar todos los datos necesarios en una sola query.
 Estos son los datos requeridos y deben ser escritos en este orden:
@@ -52,6 +55,7 @@ Id_Cliente, Identificacion, Nombre_Cliente, Apellido_Cliente, Id_Pais, Id_Ciudad
 
 
 ***TRIGGER***
+
 ***tr_nuevo_libro***
 Permite registrar una bitácora del ingreso de nuevos libros al catálogo de ventas, mostrando quién realizó el ingreso y en que fecha y hora. De esta forma podemos tener trazabilidad de un proceso tan delicado como el manejo del catálogo de la empresa y cuidar que el ingreso de nuevos productos se realice de acuerdo con las políticas definidas. El trigger se activará automáticamente cada vez que se inserte un nuevo registro en la tabla de libros
 
